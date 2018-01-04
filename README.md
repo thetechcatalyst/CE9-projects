@@ -9,17 +9,21 @@ mechanism to forward along information submitted with the email ticket.
 
 You can configure this from the codec CLI as follows
 
-`xcommand HttpFeedback Register FeedbackSlot: 1 Expression: event/userinterface/message/textinput/response Format: JSON ServerUrl: http://<hostname>/<path>`
+```
+xcommand HttpFeedback Register FeedbackSlot: 1 Expression: event/userinterface/message/textinput/response Format: JSON ServerUrl: http://<hostname>/<path>
+```
 
 And then verify it with
 
-`xstatus HttpFeedback
+```
+xstatus HttpFeedback
 *s HttpFeedback 1 Expression: "event/userinterface/message/textinput/response"
 *s HttpFeedback 1 Format: "JSON"
 *s HttpFeedback 1 URL: "http://<hostname>/<path>"
 ** end
 
-OK`
+OK
+```
 
 
 
