@@ -7,24 +7,21 @@ Support Tools is a menu that can be added to your system to allow users to conta
 In addition to the XML and JS files you will also need to configure a feedback
 mechanism to forward along information submitted with the email ticket.
 
-You can configure this from the codec CLI as follows:
+You can configure this from the codec CLI as follows
 
-`
-xcommand HttpFeedback Register FeedbackSlot: 1 Expression: event/userinterface/message/textinput/response Format: JSON ServerUrl: http://<hostname>/<path>
-`
+`xcommand HttpFeedback Register FeedbackSlot: 1 Expression: event/userinterface/message/textinput/response Format: JSON ServerUrl: http://<hostname>/<path>`
 
-And then verify it with:
+And then verify it with
 
-`
-
-xstatus HttpFeedback
+`xstatus HttpFeedback
 *s HttpFeedback 1 Expression: "event/userinterface/message/textinput/response"
 *s HttpFeedback 1 Format: "JSON"
 *s HttpFeedback 1 URL: "http://<hostname>/<path>"
 ** end
 
-OK
-`
+OK`
+
+
 
 
 
