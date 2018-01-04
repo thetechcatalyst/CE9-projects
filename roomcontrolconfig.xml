@@ -1,0 +1,43 @@
+﻿<Extensions>
+  <Version>1.4</Version>
+  <Panel>
+    <Icon>Helpdesk</Icon>
+    <Type>Statusbar</Type>
+    <Page>
+      <Name>*** Contact Support ***</Name>
+      <Row>
+        <Name>Support Options:</Name>
+        <Widget>
+          <WidgetId>support_call</WidgetId>
+          <Name>Call Support</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>support_email</WidgetId>
+          <Name>Email Support</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Support Information: </Name>
+        <Widget>
+          <WidgetId>widget_1</WidgetId>
+          <Name>Email: support@domain.local </Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=normal;align=left</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_2</WidgetId>
+          <Name>Phone: +18005551234</Name>
+          <Type>Text</Type>
+          <Options>size=4</Options>
+        </Widget>
+      </Row>
+      <PageId>support_options</PageId>
+      <Options/>
+    </Page>
+    <Name>Panel</Name>
+  </Panel>
+</Extensions>
