@@ -14,7 +14,9 @@ xcommand HttpFeedback Register FeedbackSlot: 1 Expression: event/userinterface/m
 `
 
 And then verify it with:
+
 `
+
 xstatus HttpFeedback
 *s HttpFeedback 1 Expression: "event/userinterface/message/textinput/response"
 *s HttpFeedback 1 Format: "JSON"
