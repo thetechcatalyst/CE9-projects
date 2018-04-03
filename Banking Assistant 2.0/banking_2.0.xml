@@ -1,0 +1,27 @@
+﻿<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>general</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Helpdesk</Icon>
+    <Order>1</Order>
+    <Color>#D541D8</Color>
+    <Name>General Support</Name>
+  </Panel>
+  <Panel>
+    <PanelId>mortgage</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Home</Icon>
+    <Order>2</Order>
+    <Color>#07C1E4</Color>
+    <Name>Mortgage</Name>
+  </Panel>
+  <Panel>
+    <PanelId>wealth</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Briefing</Icon>
+    <Order>3</Order>
+    <Color>#FFB400</Color>
+    <Name>Wealth Management</Name>
+  </Panel>
+</Extensions>
