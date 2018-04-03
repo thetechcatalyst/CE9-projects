@@ -36,3 +36,10 @@ OK
 ### Banking Assistant
 Dial shortcuts based on a banking use case.  You can make simple changes to get
 functionality and appearances to suit your applications needs.
+
+
+### Banking Assistant 2.0
+The first version of the banking assistant actually had a windows that opened
+options the end use would select.  This was problematic because it created a 2
+click work flow.  In this version I added multiple buttons directly to the Home
+Screen that can be pressed directly and the call dialed. 
