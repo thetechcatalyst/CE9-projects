@@ -51,11 +51,11 @@
             </Value>
             <Value>
               <Key>()</Key>
-              <Name>()</Name>
+              <Name/>
             </Value>
             <Value>
               <Key>%</Key>
-              <Name>%</Name>
+              <Name/>
             </Value>
             <Value>
               <Key>÷</Key>
@@ -145,7 +145,7 @@
           <ValueSpace>
             <Value>
               <Key>+/-</Key>
-              <Name>+/-</Name>
+              <Name/>
             </Value>
             <Value>
               <Key>0</Key>
