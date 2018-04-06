@@ -42,4 +42,8 @@ functionality and appearances to suit your applications needs.
 The first version of the banking assistant actually had a windows that opened
 options the end use would select.  This was problematic because it created a 2
 click work flow.  In this version I added multiple buttons directly to the Home
-Screen that can be pressed directly and the call dialed. 
+Screen that can be pressed directly and the call dialed.
+
+### Calculator
+This is a calculator for use on screen on the DX80.  At this time the app is
+not yet working.  
