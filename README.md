@@ -45,5 +45,6 @@ click work flow.  In this version I added multiple buttons directly to the Home
 Screen that can be pressed directly and the call dialed.
 
 ### Calculator
-This is a calculator for use on screen on the DX80.  At this time the app is
-not yet working.  
+This is a calculator for use on screen on the DX80.
+
+Currently this is in early BETA with very limited features. 
