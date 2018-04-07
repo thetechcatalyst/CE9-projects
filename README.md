@@ -44,7 +44,9 @@ options the end use would select.  This was problematic because it created a 2
 click work flow.  In this version I added multiple buttons directly to the Home
 Screen that can be pressed directly and the call dialed.
 
+This Version of the assistant was tested with the CE 9.3 version of software.
+
 ### Calculator
 This is a calculator for use on screen on the DX80.
 
-Currently this is in early BETA with very limited features. 
+Currently this is in early BETA with very limited features.
