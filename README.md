@@ -30,9 +30,6 @@ OK
 
 
 
-
-
-
 ### Banking Assistant
 Dial shortcuts based on a banking use case.  You can make simple changes to get
 functionality and appearances to suit your applications needs.
