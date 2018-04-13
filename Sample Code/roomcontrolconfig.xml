@@ -1,0 +1,11 @@
+﻿<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>button1</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Lightbulb</Icon>
+    <Order>1</Order>
+    <Color>#FF7033</Color>
+    <Name>Button1</Name>
+  </Panel>
+</Extensions>
