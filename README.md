@@ -4,7 +4,7 @@ Projects for Cisco DX, MX, SX and Room Systems
 Further examples and descriptions of some of these projects can be found at
 [http://technologyordie.com](http://technologyordie.com)
 
-## Sample Code
+### Sample Code
 The Sample Code is the code used in the XAPI / Macro intro
 video on [YouTube](https://youtu.be/9QHb05iSPBI)
 
