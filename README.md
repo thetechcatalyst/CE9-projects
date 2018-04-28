@@ -52,3 +52,14 @@ This Version of the assistant was tested with the CE 9.3 version of software.
 This is a calculator for use on screen on the DX80.
 
 Currently this is in early BETA with very limited features.
+
+### Camera Mode Toggle
+
+The camera mode toggle application is for SX80 codecs running CE 9.3 or later.
+This code will allow you toggle between Speaker Track and Presenter Track with
+only a single touch of the screen.  
+
+Typically the Camera settings are inside a menu and are not 100% intuitive for
+all users.  There is also the optional "Disconnect_Camera_Reset.js" script that
+will set the codec back to Speaker Track after t call concludes so the Systems
+is ready for the next user and the user knows what to expect. 
