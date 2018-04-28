@@ -1,0 +1,11 @@
+﻿<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>CameraToggle</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Camera</Icon>
+    <Order>1</Order>
+    <Color>#FF503C</Color>
+    <Name>Presenter Track</Name>
+  </Panel>
+</Extensions>
