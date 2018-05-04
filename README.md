@@ -1,4 +1,4 @@
-# CE9-projects
+#CE9-projects
 Projects for Cisco DX, MX, SX and Room Systems
 
 Further examples and descriptions of some of these projects can be found at
@@ -62,4 +62,4 @@ only a single touch of the screen.
 Typically the Camera settings are inside a menu and are not 100% intuitive for
 all users.  There is also the optional "Disconnect_Camera_Reset.js" script that
 will set the codec back to Speaker Track after t call concludes so the Systems
-is ready for the next user and the user knows what to expect. 
+is ready for the next user and the user knows what to expect.
