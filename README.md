@@ -61,5 +61,5 @@ only a single touch of the screen.
 
 Typically the Camera settings are inside a menu and are not 100% intuitive for
 all users.  There is also the optional "Disconnect_Camera_Reset.js" script that
-will set the codec back to Speaker Track after t call concludes so the Systems
+will set the codec back to Speaker Track after a call concludes so the systems
 is ready for the next user and the user knows what to expect.
