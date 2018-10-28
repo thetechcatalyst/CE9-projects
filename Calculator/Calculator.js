@@ -1,7 +1,12 @@
-/**
-* Calculator written by Adam Schaeffer
-* http://technologyordie.com
-*/
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+
+//
+// Calculator written by Adam Schaeffer
+//http://technologyordie.com
+//
 
 const xapi = require('xapi');
 
@@ -13,7 +18,7 @@ function error_handle(error){
 
 /* write the calulator screen with currnet data or solution */
 function write_screen(data){
-  xapi.command("UserInterface Extensions Widget SetValue", { WidgetId: "display", Value: data}).catch(error_handle); 
+  xapi.command("UserInterface Extensions Widget SetValue", { WidgetId: "display", Value: data}).catch(error_handle);
 }
 
 /* Unset the button's blue background when its press is released */
@@ -69,7 +74,7 @@ function calculate(calc) {
             if (ops[i][calc[j]]) {
                 currentOp = ops[i][calc[j]];
             } else if (currentOp) {
-                newCalc[newCalc.length - 1] = 
+                newCalc[newCalc.length - 1] =
                     currentOp(newCalc[newCalc.length - 1], calc[j]);
                 currentOp = null;
             } else {
@@ -91,8 +96,8 @@ function calculate(calc) {
 
 /* listen for events from the calculator widget */
 xapi.event.on('UserInterface Extensions Widget Action', (event) => {
-  
-  /* If a button is pressed */  
+
+  /* If a button is pressed */
   if(event.Type === 'pressed'){
     switch(event.Value) {
     case "C":
@@ -111,12 +116,12 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
       default:
         formula_builder(event);
         //code block
-      } 
+      }
     }
-    
+
     /* Clear the blue background of the button when released */
     if (event.Type === 'released'){
       clear_button(event);
     }
-    
+
 });

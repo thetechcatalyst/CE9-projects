@@ -1,3 +1,8 @@
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+
 /**
  * A small In-Room controls panel with 4 quick dial numbers
  */

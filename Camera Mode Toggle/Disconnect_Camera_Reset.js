@@ -1,3 +1,11 @@
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+// See additional details at
+//http://technologyordie.com/cisco-sx80-presenter-track-speaker-track-toggle-macro
+//
+
 const xapi = require('xapi');
 
 xapi.event.on('CallDisconnect', (event) => {

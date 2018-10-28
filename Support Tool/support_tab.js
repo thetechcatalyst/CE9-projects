@@ -1,3 +1,8 @@
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+
 /**
  * A small In-Room controls panel with 4 quick dial numbers
  */
@@ -25,15 +30,15 @@ function dial(number) {
 
 function listenToUI() {
   xapi.event.on('UserInterface Extensions Widget Action', (event) => {
-    
+
     if (event.WidgetId === 'support_email'){
       xapi.command('UserInterface Message TextInput Display', email_popup);
     }
-    
+
     if (event.WidgetId === 'support_call'){
-      dial(support_number); 
+      dial(support_number);
     }
-    
+
   });
 }
 

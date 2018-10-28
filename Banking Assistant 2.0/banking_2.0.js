@@ -1,10 +1,11 @@
-/**
-* OneButtonDial written by Adam Schaeffer
-* http://technologyordie.com
-*/
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+
 const xapi = require('xapi');
 
-//change number / SIP URI below for your requirements 
+//change number / SIP URI below for your requirements
 const dial_general = '1000';
 const dial_mortgage = '2000';
 const dial_wealth = '3000';
@@ -12,15 +13,15 @@ const dial_wealth = '3000';
 
 function quickDial(event) {
   //console.log(event); //logs the information passed in the "event" variable
-  
+
   if (event.PanelId === 'general') {
-    xapi.command('Dial', { Number: dial_general }); 
-  } 
-  
-  if (event.PanelId === 'mortgage') {
-    xapi.command('Dial', { Number: dial_mortgage }); 
+    xapi.command('Dial', { Number: dial_general });
   }
-  
+
+  if (event.PanelId === 'mortgage') {
+    xapi.command('Dial', { Number: dial_mortgage });
+  }
+
   if (event.PanelId === 'wealth') {
     xapi.command('Dial', { Number: dial_wealth });
   }
