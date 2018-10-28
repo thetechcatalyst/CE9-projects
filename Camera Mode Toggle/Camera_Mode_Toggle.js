@@ -2,6 +2,8 @@
 // Copyright (c) 2018 Cisco Systems
 // Licensed under the MIT License
 //
+// Writen by Adam Schaeffer
+//
 // See additional details at
 //http://technologyordie.com/cisco-sx80-presenter-track-speaker-track-toggle-macro
 //
@@ -11,7 +13,7 @@ const xapi = require('xapi');
 const presenterTrackConnectorID = 3;
 
 function handleError(error){
-  console.log('Error', error);
+  console.log('Error:', error);
 }
 
 function setButtonSpeakerTrack(){
