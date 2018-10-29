@@ -1,4 +1,4 @@
-##CE9-projects
+## CE9-projects
 Projects for Cisco DX, MX, SX and Room Systems
 
 Further examples and descriptions of some of these projects can be found at
@@ -54,6 +54,8 @@ This is a calculator for use on screen on the DX80.
 Currently this is in early BETA with very limited features.
 
 ### Camera Mode Toggle
+
+Check out the blog article on this project [HERE](http://technologyordie.com/cisco-sx80-presenter-track-speaker-track-toggle-macro)
 
 The camera mode toggle application is for SX80 codecs running CE 9.3 or later.
 This code will allow you toggle between Speaker Track and Presenter Track with
