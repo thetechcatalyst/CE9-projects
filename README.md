@@ -9,6 +9,11 @@ The Sample Code is the code used in the XAPI / Macro intro
 video on [YouTube](https://youtu.be/9QHb05iSPBI)
 
 
+### OBTP Meeting Auto start
+
+This macro listens for a OBTP booking event to start / stop on the endpoint and starts and stops the meeting
+automatically based on this booked meeting.  Tested on a DX80 registered to Webex teams.
+
 ### Support Tools
 Support Tools is a menu that can be added to your system to allow users to contact support via call or through a brief email.
 
