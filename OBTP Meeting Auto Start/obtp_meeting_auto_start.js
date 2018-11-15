@@ -1,3 +1,8 @@
+//
+// Copyright (c) 2018 Cisco Systems
+// Licensed under the MIT License
+//
+
 const xapi = require('xapi');
 
 //dial the number or SIP URI
