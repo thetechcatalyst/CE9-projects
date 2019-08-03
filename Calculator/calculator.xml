@@ -5,7 +5,7 @@
     <Type>Statusbar</Type>
     <Icon>Tv</Icon>
     <Order>1</Order>
-    <Name>Panel</Name>
+    <Name>Calculator</Name>
     <Page>
       <Name>Calculator</Name>
       <Row>
