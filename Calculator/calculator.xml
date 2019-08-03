@@ -1,44 +1,20 @@
-﻿<Extensions>
-  <Version>1.4</Version>
+<Extensions>
+  <Version>1.5</Version>
   <Panel>
-    <Icon>Tv</Icon>
-    <Type>Home</Type>
-    <Page>
-      <Name>Apple TV</Name>
-      <Row>
-        <Name>Row</Name>
-        <Widget>
-          <WidgetId>appletv_navigator</WidgetId>
-          <Type>DirectionalPad</Type>
-          <Options>size=4</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>appletv_menu</WidgetId>
-          <Type>Button</Type>
-          <Options>size=1;icon=list</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>appletv_play</WidgetId>
-          <Type>Button</Type>
-          <Options>size=1;icon=play_pause</Options>
-        </Widget>
-      </Row>
-      <PageId>AppleTV</PageId>
-      <Options>hideRowNames=1</Options>
-    </Page>
-    <Name>Apple TV</Name>
-  </Panel>
-  <Panel>
-    <Icon>Tv</Icon>
+    <PanelId>panel_2</PanelId>
     <Type>Statusbar</Type>
+    <Icon>Tv</Icon>
+    <Order>1</Order>
+    <Name>Panel</Name>
     <Page>
       <Name>Calculator</Name>
       <Row>
         <Name/>
         <Widget>
           <WidgetId>display</WidgetId>
+          <Name/>
           <Type>Text</Type>
-          <Options>size=4</Options>
+          <Options>size=4;fontSize=small;align=left</Options>
         </Widget>
         <Widget>
           <WidgetId>calc_1</WidgetId>
@@ -165,6 +141,5 @@
       <PageId>calculator</PageId>
       <Options>hideRowNames=1</Options>
     </Page>
-    <Name>Panel</Name>
   </Panel>
 </Extensions>
