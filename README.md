@@ -70,3 +70,9 @@ Typically the Camera settings are inside a menu and are not 100% intuitive for
 all users.  There is also the optional "Disconnect_Camera_Reset.js" script that
 will set the codec back to Speaker Track after a call concludes so the systems
 is ready for the next user and the user knows what to expect.
+
+### No DND
+
+This macro simply watches for a DND Activate event and then again returns the
+system to the DND Deactivate state in effect making the DND not available to
+the end users ensuring calls always ring through to the endpoint.
