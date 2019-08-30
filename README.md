@@ -76,3 +76,10 @@ is ready for the next user and the user knows what to expect.
 This macro simply watches for a DND Activate event and then again returns the
 system to the DND Deactivate state in effect making the DND not available to
 the end users ensuring calls always ring through to the endpoint.
+
+### Webex Board Browser
+
+This macro gives the user an interface to key in either a URL or a search
+phrase.  This then launches the web page in the browser.
+
+If you would like to see a demo of this check it out [HERE](https://www.youtube.com/watch?v=bKLtaOU1hxc)
