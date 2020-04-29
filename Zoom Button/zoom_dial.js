@@ -91,7 +91,7 @@ xapi.event.on('UserInterface Extensions Panel Clicked', (event) => {
 });
 
 
-
+/* When input is recieved this block of code processes it */
 xapi.event.on('UserInterface Message TextInput Response', (event) => {
     switch(event.FeedbackId){
         case DIALPAD_ID:
