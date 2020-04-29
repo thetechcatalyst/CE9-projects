@@ -1,3 +1,7 @@
+/* This macro accomodates the URI format documented here:
+https://support.zoom.us/hc/en-us/articles/201854563-Start-a-Meeting-from-an-H-323-SIP-Endpoint
+allowing you to key in a password and / or host a Zoom meeting from a Cisco Endpoint */
+
 const xapi = require('xapi');
 
 const KEYBOARD_TYPES = {
@@ -107,15 +111,6 @@ xapi.event.on('UserInterface Message TextInput Response', (event) => {
                  sleep(200).then(() => { //this is a necessary trick to get it working with multiple touch panels to not mess up event-clears from other panels
 
                 showPassword('Enter Numberic Meeting Password (If one is set)');
-                 /*xapi.command("UserInterface Message TextInput Display", {
-                       InputType: KEYBOARD_TYPES.PIN
-                     , Placeholder: "Password"
-                     , Title: "Meeting Password"
-                     , Text: 'Enter Numberic Meeting Password (If one is set)'
-                     , SubmitText: "Next"
-                     , FeedbackId: DIALPAD_PASSWORD
-                 } ).catch((error) => { console.error(error); });*/
-
             });
 
             }
@@ -128,9 +123,7 @@ xapi.event.on('UserInterface Message TextInput Response', (event) => {
           /* todo: verify password format / length */
           zoompassword = event.Text;
           showHostpin("If you are the host enter your host pin");
-
           break;
-
 
         case DIALHOSTPIN_ID:
             zoomhostpin = event.Text;
