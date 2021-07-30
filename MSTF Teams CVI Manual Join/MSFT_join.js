@@ -1,7 +1,7 @@
 const xapi = require('xapi')
 const DIALPAD_ID = 'dailpad';
 const INROOMCONTROL_WEBCONTROL_PANELID = "MSFT";
-const videoDomain = 'sitename';  //this is the site name asscoiated with your CVI instance
+const videoDomain = 'sitename';  //this is the site name associated with your CVI instance
 const webexDomain = '@m.webex.com'
 const finalDomain = '.' + videoDomain + webexDomain
 var teamsnumbertodial = '';
@@ -11,7 +11,7 @@ function showDialPad(){
     InputType: 'Numeric'
     , Placeholder: 'Conference ID'
     , Title: "Microsoft Teams Call"
-    , Text: "Enter the VTC Confernece ID"
+    , Text: "Enter the VTC Conference ID"
     , SubmitText: "Dial"
     , FeedbackId: DIALPAD_ID
   }).catch((error) => { console.error(error); });
